@@ -1,0 +1,31 @@
+{
+	"name": "modernphp/scanner",
+	"description": "Scanner de urls fornecidas por arquivos CSV",
+	"keywords": ["scanner", "url", "csv"], 
+	"license": "MIT",
+	"authors" : [
+		{
+			"name":"Leandro de Oliveira",
+			"role": "Developer",
+			"email": "oliveira.dev1997@gmail.com"
+		}
+	],
+	"support" : {
+		"name":"developeroliveira.16mb.com"
+	},
+	"require": {
+		"php": ">= 5.4.0",
+		"guzzlehttp/guzzle": "~5.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit":"~4.3"
+	},
+	"suggest":{
+		"league/csv" : "~6.0"
+	},
+	"autoload":{
+		"psr-4":{  
+			"Oreilly\\ModernPHP\\" : "src/"
+		}
+	}
+}
